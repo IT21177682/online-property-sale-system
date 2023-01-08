@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="../css/ristyle.css" />
+  </head>
+  <body>
+    <div class="container">
+  <div class="logo">
+    <img src="../images/sklogo.png" alt="logo">
+  </div>
+    <div class="title">Registration</div>
+    <div class="content">
+          <div class="panel-body">
+            <form action="../php/connect.php" method="post">
+              
+              
+				<div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+           <input type="text" placeholder="Enter your name" name="FullName" required>
+          </div>
+				<div class="input-box">
+            <span class="details">Username</span>
+            <input type="text" placeholder="Enter your username" name="username" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Email</span>
+            <input type="email" placeholder="Enter your email" name="Email" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number</span>
+            <input type="number" placeholder="Enter your number" name="PhoneNumber" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Address</span>
+            <input type="text" placeholder="Enter your Address" name="Address" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Password</span>
+            <input type="password" placeholder="Enter your password" name="Password" required>
+          </div>
+        </div>
+		<div class="Account-Type">
+		<input type="radio" name="AccountType"  id="dot-1" value="Buyer"/>
+          <input type="radio" name="AccountType" id="dot-2" value="Seller"/>
+          <input type="radio" name="AccountType" id="dot-3" value="Contractor"/>
+          <input type="radio" name="AccountType" id="dot-4" value="Architect"/>
+		  <input type="radio" name="AccountType" id="dot-5" value="Admin"/>
+          <span class="Account-title">Account Type</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="account">Buyer</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="account">Seller</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="account">Contractor</span>
+            </label>
+             <label for="dot-4">
+            <span class="dot four"></span>
+            <span class="account">Architect</span>
+            </label>
+			<label for="dot-5">
+            <span class="dot five"></span>
+            <span class="account">Admin</span>
+          </label>
+          </div>
+		  
+		  
+		  
+				
+				
+          
+              </div>
+			  <div class="button">
+              <input type="submit" id="btn" name="btn" value="Register" class="btn btn-primary" />
+			   </div>
+            </form>
+          </div>
+          
+        </div>
+      </div>
+    
+    
+  </body>
+</html>

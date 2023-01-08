@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>LAND</title>
+  <link href="../css/prsteel.css" rel="stylesheet" type="text/css" />
+  <link href="../css/pstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <header class="header">
+    <h1 id="logo">SKproperty</h1>
+    <div class="container1">
+      <div style="position: absolute; top: 1px; right: 20px;">
+					<a href="#">
+						<img src="../images/prf.jpg " class="profilepic " alt="Profile Image ">
+					</a>
+         <a href="../html/lgindex.html" margin-right="%4" class="nlinks">Logout</a>
+		 <a href="../php/cart.php"><img class="cartst" margin-left="%2" src="../images/cart-icon.png" />
+		 </div>
+
+        
+     <nav class="toplink">
+     <a href="../php/home.php" class="nlinks">Home</a>
+      <a href="Contactus.html" class="nlinks">Contactus</a>
+       <a href="aboutus.html" class="nlinks">Aboutus</a>
+      <a href="Propertyland.html" class="nlinks">Land</a>
+      <a href="houses.html" class="nlinks">Houses</a>
+      <a href="desings.html" class="nlinks">NewDesing</a>
+     <a href="Addpost.html" class="nlinks">Addyou post</a>
+	 <?php
+if(!empty($_SESSION["shopping_cart"])) {
+$cart_count = count(array_keys($_SESSION["shopping_cart"]));
+?>
+ Cart</a><span>
+<?php echo $cart_count; ?></span>
+<?php
+}
+?>
+</nav>
+<div class="topicons">
+  <i class="far fa-user"></i>
+   <i class="fa fa-search" aria-hidden="true"></i>
+</div>  
+  </header>
+  <main class="main">
+    <section class="top">
+      <img src="../images/banner2.jpg" alt="banner2" class="banner2" width= "1900" height="400">
+      
+    </section>
+    <nav class="toplink">
+      <a href="#" class="nlinks">COCONUT LAND</a>
+      <a href="#" class="nlinks">COMMERCIAL LAND</a>
+      <a href="#" class="nlinks">TEA LAND</a>
+      <a href="#" class="nlinks">CINNOMAN LAND</a>
+      <a href="#" class="nlinks">CULTIVATED LAND</a>
+    </nav>
+    <h2 id="divider">Land for sale in Sri Lanka</h2>
+
+    <section class="shop">
+      <div class ="box">
+        <img src="../images/land01.jpg" alt="land" width="400"  height="300" >
+        <h3 class="location">COCONUT LAND</h3>
+    <p class="details">
+  15 Perches Land for sale</br>
+  Dehiwala- 
+karagampitiya</br>
+</p>
+        <h4 class="price">20Million</h4>
+        <button class="click">Know more</button>
+      </div>
+      <div class ="box">
+        <img src="../images/land02.jpg" alt="land" width="400"  height="300" >
+        <h3 class="location">COMMERCIAL LAND</h3>
+    <p class="details">
+    Malabe - Off Kanhanthota Road</br>
+  8 Perches Land</br>
+</p>
+        <h4 class="price">15Million</h4>
+        <button class="click">Know more</button>
+      </div>
+      <div class ="box">
+        <img src="../images/land03.jpg" alt="land" width="400"  height="300" >
+        <h3 class="location">COCONUT LAND</h3>
+    <p class="details">
+  Homagama Road</br>
+  12 Perches Land</br>
+</p>
+        <h4 class="price">25Million</h4>
+        <button class="click">Know more</button>
+      </div>
+    </section>
+
+    <section class="shop">
+      <div class ="box">
+        <img src="../images/land04.jpg" alt="land" width="400"  height="300" >
+        <h3 class="location">TEA LAND</h3>
+    <p class="details">
+   Nuwara Eliya- Victoriya Road</br>
+ 30 Perches Land</br>
+</p>
+        <h4 class="price">50Million</h4>
+        <button class="click">Know more</button>
+      </div>
+      <div class ="box">
+        <img src="../images/land05.jpg" alt="land" width="400"  height="300" >
+        <h3 class="location">tracy</h3>
+    <p class="details">
+  Gampaha-Main Road</br>
+9 Perches Land</br>
+</p>
+        <h4 class="price">22Million</h4>
+        <button class="click">Know more</button>
+      </div>
+      <div class ="box">
+        <img src="../images/land06.jpg" alt="land" width="400"  height="300" >
+        <h3 class="location">HOME LAND</h3>
+    <p class="details">
+ Galle-Hikkaduwa Road</br>
+  20 Perches Land</br>
+  04 Bedrooms</br>
+  Bathroom
+</p>
+        <h4 class="price">40Million</h4>
+        <button class="click">Know more</button>
+      </div>
+    </section>
+
+  </main>
+
+  
+
+  <footer class="footer">
+  	 <div class="main-wrap">
+            <div class="footer-wrap">
+                <div class="footer-wrap-1">
+                    <div class="footer-section">
+                        <h1>COMPANY</h1>
+                        <a href="../php/home.php">Home</a>
+                        <a href="Propertyland.html">Land</a>
+                        <a href="desings.html">Contractor</a>
+                        <a href="desings.html">Architecture</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>HELP&SUPPORT</h1>
+                        <a href="Contactus.html">Contact us</a>
+                        <a href="Pr.html">privacy policy</a>
+                        <a href="faq.html">FAQ</a>
+                     
+                    </div>
+                    <div class="footer-section">
+                        <h1>LEARN MORE</h1>
+                        <a href="aboutus.html">About us</a>
+                        <a href="propertylaw.html">Property low</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>Stay Connected</h1>
+                      <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+99 50605631</a>
+         </div>
+                 <p>Subscribe to our newsletterFor exclusive updates</p>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Enter Email Address">
+                            <button type="submit" class="btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-wrap-2">
+                    <div class="line"></div>
+                    <div class="social-link">
+                        <a href="#">
+                            <img src="../images/fb.png" alt="Facebook">
+                        </a>
+                        <a href="#">
+                            <img src="../images/google.png" alt="Google">
+                        </a>
+                        <a href="#">
+                            <img src="../images/inster.png" alt="inster">
+                        </a>
+                        <a href="#">
+                            <img src="../images/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="first-box">
+                    <a href="#">Terms & Conditions</a>
+                   
+                </div>
+                <div class="last-box">
+                    <a href="#">&copy; Copyright 2022 SKProperty powerd by ROCOGEN</a>
+                </div>
+            </div>
+        </div>
+  </footer>
+
+
+
+    
+    
+        <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
