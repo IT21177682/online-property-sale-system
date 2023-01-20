@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>SKPROPERTY</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../ccs/stylesheet.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <form action="connection.php" method="post">
+        <div class="container">
+          <h1>Add Post Page</h1>
+          
+            <hr>
+                    <label for="city"><b>City</b></label>
+                    <input type="text" placeholder="Enter City" name="city" id="city" required>
+                
+                    <label for="street"><b>Address / Street</b></label>
+                    <input type="text" placeholder="Enter Street" name="street" id="street" required>
+                <br>
+                    <label for="ammount"><b>I'm expecting</b></label>
+                    <input type="text" placeholder="LKR" name="ammount" id="ammount" required>
+                    
+                    <label for="negotiable">Nego</label> 
+                    <input type="radio" id="negotiable" name="negotiable" value="Nego">
+                 <br>
+                    <label for="publish_date"><b>Available From</b></label>
+                    <input type="date"  name="publish_date" id="publish_date" required>
+                
+                    <label for="current_status"><b>Current Status</b></label>
+                    <input type="text" placeholder="Current Status" name="current_status" id="current_status" required>
+            <hr>
+            <hr>
+                <h3>My House Has</h3>
+                    <label for="bedrooms"><b>Bedrooms</b></label>
+                    <input type="number" placeholder="Bedrooms" name="bedrooms" id="bedrooms" required>
+            
+                    <label for="bathrooms"><b>Bathrooms</b></label>
+                    <input type="number" placeholder="Bathrooms" name="bathrooms" id="bathrooms" required>
+                 <br>
+                    <label for="floar_area"><b>Floor Area</b></label>
+                    <input type="number" placeholder="Floor Area" name="floar_area" id="floar_area" required>
+
+                    <label for="land_area"><b>Land Area</b></label>
+                    <input type="number" placeholder="Land Area" name="land_area" id="land_area" required>
+                <br>
+                    <label for="heading"><b>Heading</b></label>
+                    <input type="text" placeholder="Floor Area" name="heading" id="heading" required>
+                <br>
+                    <label for="description"><b>Description</b></label>
+                    <input type="text" placeholder=" Description" name="description" id="description" required>
+            <hr>
+            <hr>
+                <h3>My House INCLUDES</h3>
+
+                <label for="firniture"> With Firniture</label>
+                <input type="checkbox" id="firniture" name="firniture" value="Firniture">
+
+                <label for="new"> Brand New</label>
+                <input type="checkbox" id="new" name="new" value="Brand New">
+                
+                <label for="with_ac">With A/C</label>
+                <input type="checkbox" id="with_ac" name="with_ac" value="With A/C">
+                
+                <label for="hot_water"> Hot Water</label> 
+                <input type="checkbox" id="hot_water" name="hot_water" value="Hot Water">
+                
+                <br>
+
+                <label for="saterlite"> Saterlite TV</label>
+                <input type="checkbox" id="saterlite" name="saterlite" value="Saterlite TV">
+                
+                <label for="servent_room">Servent's Room</label>
+                <input type="checkbox" id="servent_room" name="servent_room" value="Servent's Room">
+               
+                <label for="garden">Garden</label>
+                <input type="checkbox" id="garden" name="garden" value="Garden">
+               
+                <label for="swimming_pool"> Swimming Pool</label> 
+                <input type="checkbox" id="swimming_pool" name="swimming_pool" value="Swimming Pool">
+                
+            <hr>
+            <hr>
+                <label for="img">Select Image:</label>
+                <input type="file" id="img" name="img" accept="image/*">
+            <hr>
+            <hr>
+                <label for="name"><b>I'm </b></label>
+                <input type="text" placeholder="Name" name="name" id="name" required>
+                
+                <label for="owner">The Owner</label> 
+                <input type="radio" id="owner" name="owner" value="Yes">
+
+                <label for="email"><b>Email </b></label>
+                <input type="email" placeholder="Email" name="email" id="email" required>
+
+                <br>
+
+                <label for="phone_number"><b>Contact Number </b></label>
+                <input type="number" placeholder="Contact Number" name="phone_number" id="phone_number" required>
+            <hr>
+            <input type="checkbox" id="agreement" name="agreement" value="agree" required>
+            <label for="agreement">I agree to SKPROPERTY.lk terms and conditions</label>
+            <br>
+            <button type="submit" class="registerbtn">Submit</button>
+        </div>
+      
+        
+      </form>
+</body>
+</html>

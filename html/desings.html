@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HOME</title>
+  <link href="../css/Newdesign.css" rel="stylesheet" type="text/css" />
+  <link href="../css/pstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class="header">
+    <h1 id="logo">SKproperty</h1>
+    <div class="container1">
+      <div style="position: absolute; top: 1px; right: 20px;">
+					<a href="#">
+						<img src="../images/prf.jpg " class="profilepic " alt="Profile Image ">
+					</a>
+         <a href="../html/lgindex.html" margin-right="%4" class="nlinks">Logout</a>
+		 <a href="../php/cart.php"><img class="cartst" margin-left="%2" src="../images/cart-icon.png" />
+		 </div>
+
+        
+    <nav class="toplink">
+     <a href="../php/home.php" class="nlinks">Home</a>
+      <a href="Contactus.html" class="nlinks">Contactus</a>
+       <a href="aboutus.html" class="nlinks">Aboutus</a>
+      <a href="Propertyland.html" class="nlinks">Land</a>
+      <a href="houses.html" class="nlinks">Houses</a>
+      <a href="desings.html" class="nlinks">NewDesing</a>
+     <a href="Addpost.html" class="nlinks">Addyou post</a>
+	 <?php
+if(!empty($_SESSION["shopping_cart"])) {
+$cart_count = count(array_keys($_SESSION["shopping_cart"]));
+?>
+ Cart</a><span>
+<?php echo $cart_count; ?></span>
+<?php
+}
+?>
+</nav>
+<div class="topicons">
+  <i class="far fa-user"></i>
+   <i class="fa fa-search" aria-hidden="true"></i>
+</div>  
+  </header>
+  <main class="main">
+    <section class="top">
+      <img src="../images/new design.jpg" alt="banner" class="banner">
+      
+    </section>
+    <h2 id="divider"><center>Our Architectures </center></h2>
+
+    <section class="shop">
+      <div class ="box">
+        <img src="../images/damith.png" alt="home" width="200"  height="100" >
+        <h3 class="location">Damith de silva</h3>
+    <p class="details">
+    CHARTERED ARCHITECT / INTERIOR DESIGNER</br>
+BSc (BE) Hons, MSc (Arch),</br>
+</p>
+        <button class="click">contact</button>
+      </div>
+      <div class ="box">
+        <img src="../images/Tsw.png" alt="home" width="200"  height="100" >
+        <h3 class="location">Tanya and Suren Wickremasinghe </h3>
+    <p class="details">
+    CHARTERED ARCHITECT / INTERIOR DESIGNER</br>
+    BSc (BE) Hons, MSc (Arch)</br>
+</p>
+        
+        <button class="click">contact</button>
+      </div>
+      <div class ="box">
+        <img src="../images/kwa.png" alt="home" width="200"  height="100" >
+        <h3 class="location">KWA Architects</h3>
+    <p class="details">
+    CHARTERED ARCHITECT / INTERIOR DESIGNER</br>
+    BSc (BE) Hons, MSc (Arch)</br>
+</p>
+        <button class="click">contact</button>
+      </div>
+
+<div class ="box">
+        <img src="../images/ara.png" alt="home" width="200"  height="100" >
+        <h3 class="location">Aruna priyantha</h3>
+    <p class="details">
+    CHARTERED ARCHITECT / INTERIOR DESIGNER</br>
+    BSc (BE) Hons, MSc (Arch)<</br>
+        
+        
+</p>
+        
+        <button class="click">contact </button>
+      
+      </div>
+
+      
+    </section>
+     <h2 id="divider"><center>Our contractors</center></h2>
+
+    <section class="shop">
+      <div class ="box">
+        <img src="../images/Maga logo.jpg" alt="home" width="200"  height="100" >
+        <h3 class="location">Maga</h3>
+    <p class="details">
+    30 years of experience and More than eight hundred projects.
+  
+      </br>
+</p>
+        
+        <button class="click">contact</button>
+      </div>
+      <div class ="box">
+        <img src="../images/nawalock.jpg" alt="home" width="200"  height="100" >
+        <h3 class="location">Nawaloka constructions</h3>
+    <p class="details"> 
+    25 years of experience and More than five hundred projects.
+      
+    </br>
+</p>
+       
+        <button class="click">contact</button>
+      </div>
+      <div class ="box">
+        <img src="../images/lex.png" alt="home" width="200"  height="100" >
+        <h3 class="location">lex duco</h3>
+    <p class="details">
+      10 years of experience and More than three hundred projects.
+    </br>
+</p>
+</p>
+        
+        <button class="click">contact</button>
+      </div>
+ </div>
+      <div class ="box">
+        <img src="../images/kadalla.png" alt="home" width="200"  height="100" >
+        <h3 class="location">Kadalla constructions</h3>
+    <p class="details">
+    10 years of experience and More than  hundred projects.</br>
+</p>
+</p>
+        
+        <button class="click">contact</button>
+      </div>
+
+      
+    </section>
+
+  </main>
+
+  
+  <footer class="footer">
+  	 <div class="main-wrap">
+            <div class="footer-wrap">
+                <div class="footer-wrap-1">
+                    <div class="footer-section">
+                        <h1>COMPANY</h1>
+                        <a href="../php/home.php">Home</a>
+                        <a href="Propertyland.html">Land</a>
+                        <a href="desings.html">Contractor</a>
+                        <a href="desings.html">Architecture</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>HELP&SUPPORT</h1>
+                        <a href="Contactus.html">Contact us</a>
+                        <a href="Pr.html">privacy policy</a>
+                        <a href="faq.html">FAQ</a>
+                     
+                    </div>
+                    <div class="footer-section">
+                        <h1>LEARN MORE</h1>
+                        <a href="aboutus.html">About us</a>
+                        <a href="propertylaw.html">Property low</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>Stay Connected</h1>
+                      <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+99 50605631</a>
+         </div>
+                 <p>Subscribe to our newsletterFor exclusive updates</p>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Enter Email Address">
+                            <button type="submit" class="btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-wrap-2">
+                    <div class="line"></div>
+                    <div class="social-link">
+                        <a href="#">
+                            <img src="../images/fb.png" alt="Facebook">
+                        </a>
+                        <a href="#">
+                            <img src="../images/google.png" alt="Google">
+                        </a>
+                        <a href="#">
+                            <img src="../images/inster.png" alt="inster">
+                        </a>
+                        <a href="#">
+                            <img src="../images/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="first-box">
+                    <a href="#">Terms & Conditions</a>
+                   
+                </div>
+                <div class="last-box">
+                    <a href="#">&copy; Copyright 2022 SKProperty powerd by ROCOGEN</a>
+                </div>
+            </div>
+        </div>
+  </footer>
+
+
+
+    
+    
+        <script src="script.js"></script>
+</body>
+
+</html>
+

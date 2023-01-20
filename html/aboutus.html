@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+  
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>aboutus</title>
+  <link href="../css/aboutus.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+   <header class="header">
+    <h1 id="logo">SKproperty</h1>
+    <div class="container1">
+      <div style="position: absolute; top: 1px; right: 20px;">
+					<a href="#">
+						<img src="../images/prf.jpg " class="profilepic " alt="Profile Image ">
+					</a>
+         <a href="../html/lgindex.html" margin-right="%4" class="nlinks">Logout</a>
+		 <a href="../php/cart.php"><img class="cartst" margin-left="%2" src="../images/cart-icon.png" />
+		 </div>
+
+        
+   <nav class="toplink">
+     <a href="../php/home.php" class="nlinks">Home</a>
+      <a href="Contactus.html" class="nlinks">Contactus</a>
+       <a href="aboutus.html" class="nlinks">Aboutus</a>
+      <a href="Propertyland.html" class="nlinks">Land</a>
+      <a href="houses.html" class="nlinks">Houses</a>
+      <a href="desings.html" class="nlinks">NewDesing</a>
+     <a href="Addpost.html" class="nlinks">Addyou post</a>
+	 <?php
+if(!empty($_SESSION["shopping_cart"])) {
+$cart_count = count(array_keys($_SESSION["shopping_cart"]));
+?>
+ Cart</a><span>
+<?php echo $cart_count; ?></span>
+<?php
+}
+?>
+</nav>
+<div class="topicons">
+  <i class="far fa-user"></i>
+   <i class="fa fa-search" aria-hidden="true"></i>
+</div>  
+  </header>
+  
+   <main class="main">
+    <section class="top">
+      
+      <img src="../images/about1.jpg" alt="ole" class="ole" style="height:10%" >
+        <div class="hero-text">
+  <h1>About Us</h1></br>
+ <h6> 
+  <p>SKProperty is the most advanced real estate and rental marketplace in Sri Lanka.
+  Our online platform offers various types of latest properties in Sri Lanka. 
+  We are aimed at changing the Real Estate industry of Sri Lanka. 
+  We offer all our services for free and we encourage every single user to advertise with us to feel our disruptive innovation in the Online Real Estate Market of Sri Lanka. 
+  We help you to Sell, Rent, or Buy any type of property for Free. 
+  SKProperty is Sri Lanka's most trending property listing website and also has the highest number of properties listed in Sri Lankan Real Estate Market.
+</p></br>
+<p>
+A huge number of loyal users have chosen SKProperty as the Best Property Listing website in Sri Lanka and also Apartment Rental website in Sri Lanka. 
+We provide the service to sell, buy, and rent their properties for anyone. 
+SKProperty has wide range of properties from houses, apartments, annexes, and lands for rent or sale in every single part of the island. 
+SKProperty allows anyone to list their property for sale, property for rent, land for sale, or apartment for sale ads in Sri Lanka. 
+We want to guide everyone to find their homely place on earth.
+.</p></h6></br>
+
+<div class="coner">
+
+  <div class="text-block"></br>
+    <h4>Our Vision</h4></br>
+    <h6><p>SKProperty’s vision is to become the leading 
+	online real estate website in Sri Lanka for all types 
+	of real estate services.</p> </h6></br>
+  </div>
+</div>
+<div class="conn">
+
+  <div class="text-block2"></br>
+    <h4>Our Mision</h4></br>
+    <h6><p>SKProperty’s mission is to connect people</br> 
+	with the best properties in Sri Lanka and help them </br>
+	unlock their life’s next chapter..</p> </h6></br>
+  </div>
+</div>
+
+  </div>
+  
+    
+  
+  
+  
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="../images/psn2.jfif" alt="Jane" style="width:80%"
+	  >
+      <div class="container">
+        <h2>Alani collas</h2>
+        <p class="title">CEO & Founder</p>
+        <p>alenis@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../images/p1.jpg" alt="TOm" style="width:100%">
+      <div class="container">
+        <h2>Tom cruse</h2>
+        <p class="title">Maneger</p>
+        <p>tom66@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="../images/prsn1.jpg" alt="John" style="width:100%" style="height:10%">
+      <div class="container">
+        <h2>michel joe</h2>
+        <p class="title">Enginerr</p>
+       <p>michel1@egmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+  
+  
+  
+ <footer class="footer">
+  	 <div class="main-wrap">
+            <div class="footer-wrap">
+                <div class="footer-wrap-1">
+                    <div class="footer-section">
+                        <h1>COMPANY</h1>
+                        <a href="../php/home.php">Home</a>
+                        <a href="Propertyland.html">Land</a>
+                        <a href="desings.html">Contractor</a>
+                        <a href="desings.html">Architecture</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>HELP&SUPPORT</h1>
+                        <a href="Contactus.html">Contact us</a>
+                        <a href="Pr.html">privacy policy</a>
+                        <a href="faq.html">FAQ</a>
+                     
+                    </div>
+                    <div class="footer-section">
+                        <h1>LEARN MORE</h1>
+                        <a href="aboutus.html">About us</a>
+                        <a href="propertylaw.html">Property low</a>
+                        <a href="#">Blog</a>
+                    </div>
+                    <div class="footer-section">
+                        <h1>Stay Connected</h1>
+                      <div class="phone">
+           <a href="#"><i class="fas fa-phone-volume"></i>+99 50605631</a>
+         </div>
+                 <p>Subscribe to our newsletterFor exclusive updates</p>
+                        <form action="">
+                            <input type="email" name="email" id="email" placeholder="Enter Email Address">
+                            <button type="submit" class="btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer-wrap-2">
+                    <div class="line"></div>
+                    <div class="social-link">
+                        <a href="#">
+                            <img src="../images/fb.png" alt="Facebook">
+                        </a>
+                        <a href="#">
+                            <img src="../images/google.png" alt="Google">
+                        </a>
+                        <a href="#">
+                            <img src="../images/inster.png" alt="inster">
+                        </a>
+                        <a href="#">
+                            <img src="../images/youtube.png" alt="youtube">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="first-box">
+                    <a href="#">Terms & Conditions</a>
+                   
+                </div>
+                <div class="last-box">
+                    <a href="#">&copy; Copyright 2022 SKProperty powerd by ROCOGEN</a>
+                </div>
+            </div>
+        </div>
+  </footer>
+
+
+
+    
+    
+        <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
